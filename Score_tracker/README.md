@@ -1,63 +1,56 @@
-# Beginner-Projects
 
 ***************************************************************************************************************************************
-**Project 1**
+**Project 2**
 
-Python Password Generator
+ **Here's a README file for GitHub, combining the best aspects of previous responses and addressing mentioned issues:**
 
-This script generates a random password based on user input for the number of words, numbers, and special characters.
+# Ping Pong Score Keeper
 
-Features:
+## Description
 
-    Generates strong passwords with a mix of words, numbers, and special characters.
-    Allows users to customize the length and complexity of the password.
-    Includes a list of common words and special characters by default.
-    Can be easily extended to use custom word lists.
+This simple web app provides a user-friendly interface for keeping track of scores in a ping pong match. It's built with HTML, CSS, and JavaScript.
 
-Requirements:
+## Features
 
-    Python 3.x
+- **Clear score display:** Shows scores for both players prominently.
+- **Customizable winning score:** Choose the target score for a match.
+- **Easy score updates:** Use dedicated buttons to increment scores for each player.
+- **Reset functionality:** Start a new game with a single click.
+- **Visually appealing design:** Employs the Bulma CSS framework for a clean and modern look.
 
-Getting Started:
+## Technologies Used
 
-    Download the script and save it as password_generator.py.
-    Open a terminal window and navigate to the directory where you saved the script.
-    Run the script using the following command:
+- HTML5
+- CSS3
+- Bulma CSS framework
+- JavaScript
 
-Bash
+## Setup
 
-python password_generator.py
+1. Clone this repository.
+2. Ensure the image file (`lisa-keffer-KTDP7pRKNrU-unsplash.jpg`) is present in the `Game_score_tracker-main` directory (or adjust the image path accordingly).
+3. Open `index.html` in a web browser.
 
-Use code with caution. Learn more
+## Usage
 
-Usage:
+1. Select the desired winning score from the dropdown menu.
+2. Click the "+1 Player One" or "+1 Player Two" buttons to update scores.
+3. Click the "Reset" button to start a new game.
 
-    The script will prompt you for the number of words, numbers, and special characters you want to include in your password.
-    Enter the desired values and press Enter.
-    The script will generate a random password based on your input and display it in the terminal.
+## Contributing
 
-Customizing the Word List:
+Contributions are welcome! Feel free to open issues or pull requests.
 
-    By default, the script uses a list of common words included in the file words.txt.
-    You can download an updated word list from the following URL:
+## License
 
-    https://raw.githubusercontent.com/dwyl/english-words/master/words.txt
+This project is licensed under the MIT License.
 
-    You can also use your own custom word list. Simply replace the words.txt file with your own list.
+## Additional Notes
 
-Adding Additional Features:
+- The core scorekeeping functionality is handled by the `score.js` file.
+- Consider expanding features, such as:
+    - Match history
+    - Player names
+    - Sound effects
 
-    You can easily extend the script to include additional features, such as:
-        Support for uppercase and lowercase characters.
-        Exclusion of specific characters or words.
-        Minimum and maximum password length.
-        Strength meter to indicate the strength of the generated password.
-
-Contributing:
-
-    We welcome contributions to improve this script. Feel free to fork the repository and submit pull requests with your improvements.
-
-License:
-
-    This script is released under the MIT license.
 ***************************************************************************************************************************************
